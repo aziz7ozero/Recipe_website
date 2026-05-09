@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Buddha Bowl - RecipeHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo" style="text-decoration: none;">RecipeHub</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <button class="btn-primary">Sign In</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- recipe details page -->
+    <section style="background-color: #fafafa; padding: 3rem 0;">
+        <div class="container">
+            <a href="recipes.html" style="color: #f97316; text-decoration: none; font-weight: 600; display: inline-block; margin-bottom: 2rem;">
+                ← Back to Recipes
+            </a>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; background: white; padding: 3rem; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+                
+                <!-- left side with image and info -->
+                <div>
+                    <img src="https://images.unsplash.com/photo-1547928578-bca3e9c5a0ab?w=800&h=600&fit=crop" 
+                         alt="Healthy Buddha Bowl" 
+                         style="width: 100%; height: 400px; object-fit: cover; border-radius: 16px; margin-bottom: 2rem;">
+                    
+                    <h1 style="font-size: 2.5rem; color: #333; margin-bottom: 1rem;">Healthy Buddha Bowl</h1>
+                    
+                    <p style="color: #666; font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;">
+                        A nutritious and colorful bowl packed with fresh vegetables, quinoa, and healthy fats. 
+                        Perfect for a quick and easy lunch or dinner!
+                    </p>
+
+                    <!-- recipe stats -->
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2rem;">
+                        <div style="background: linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%); border: 2px solid #fb923c; border-radius: 16px; padding: 1.5rem; text-align: center;">
+                            <div style="font-size: 2rem; margin-bottom: 0.5rem;">⏱️</div>
+                            <div style="font-weight: 600; color: #333; margin-bottom: 0.25rem;">30 min</div>
+                            <div style="font-size: 0.9rem; color: #666;">Total Time</div>
+                        </div>
+                        <div style="background: linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%); border: 2px solid #fb923c; border-radius: 16px; padding: 1.5rem; text-align: center;">
+                            <div style="font-size: 2rem; margin-bottom: 0.5rem;">👥</div>
+                            <div style="font-weight: 600; color: #333; margin-bottom: 0.25rem;">2 servings</div>
+                            <div style="font-size: 0.9rem; color: #666;">Servings</div>
+                        </div>
+                        <div style="background: linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%); border: 2px solid #fb923c; border-radius: 16px; padding: 1.5rem; text-align: center;">
+                            <div style="font-size: 2rem; margin-bottom: 0.5rem;">📊</div>
+                            <div style="font-weight: 600; color: #333; margin-bottom: 0.25rem;">Easy</div>
+                            <div style="font-size: 0.9rem; color: #666;">Difficulty</div>
+                        </div>
+                    </div>
+
+                    <!-- chef tip -->
+                    <div style="background: linear-gradient(135deg, #fb923c 0%, #f97316 100%); color: white; padding: 2rem; border-radius: 16px;">
+                        <h4 style="font-size: 1.3rem; margin-bottom: 1rem;">💡 Chef's Tip</h4>
+                        <p style="line-height: 1.6;">
+                            You can meal-prep this recipe by storing the ingredients separately and assembling 
+                            just before eating to keep everything fresh and crispy!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- right side with ingredients and steps -->
+                <div>
+                    <!-- ingredients section -->
+                    <div style="background: #fafafa; border: 2px solid #fb923c; border-radius: 16px; padding: 2rem; margin-bottom: 2rem;">
+                        <h3 style="font-size: 1.8rem; color: #f97316; margin-bottom: 1.5rem;">Ingredients</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="display: flex; align-items: center; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+                                <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer;">
+                                <span style="color: #333;">2 cups fresh spinach</span>
+                            </li>
+                            <li style="display: flex; align-items: center; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+                                <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer;">
+                                <span style="color: #333;">1 cup quinoa, cooked</span>
+                            </li>
+                            <li style="display: flex; align-items: center; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+                                <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer;">
+                                <span style="color: #333;">1 avocado, sliced</span>
+                            </li>
+                            <li style="display: flex; align-items: center; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+                                <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer;">
+                                <span style="color: #333;">1/2 cup cherry tomatoes</span>
+                            </li>
+                            <li style="display: flex; align-items: center; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+                                <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer;">
+                                <span style="color: #333;">1/4 cup chickpeas, roasted</span>
+                            </li>
+                            <li style="display: flex; align-items: center; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+                                <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer;">
+                                <span style="color: #333;">2 tbsp olive oil</span>
+                            </li>
+                            <li style="display: flex; align-items: center; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid #e5e7eb;">
+                                <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer;">
+                                <span style="color: #333;">1 lemon, juiced</span>
+                            </li>
+                            <li style="display: flex; align-items: center; gap: 1rem; padding: 0.75rem 0;">
+                                <input type="checkbox" style="width: 18px; height: 18px; cursor: pointer;">
+                                <span style="color: #333;">Salt and pepper to taste</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- instructions section -->
+                    <div style="background: #fafafa; border: 2px solid #fb923c; border-radius: 16px; padding: 2rem;">
+                        <h3 style="font-size: 1.8rem; color: #f97316; margin-bottom: 1.5rem;">Instructions</h3>
+                        
+                        <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
+                            <div style="width: 35px; height: 35px; background-color: #f97316; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">
+                                1
+                            </div>
+                            <p style="color: #333; line-height: 1.6; padding-top: 0.5rem;">
+                                Cook quinoa according to package instructions and let it cool.
+                            </p>
+                        </div>
+
+                        <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
+                            <div style="width: 35px; height: 35px; background-color: #f97316; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">
+                                2
+                            </div>
+                            <p style="color: #333; line-height: 1.6; padding-top: 0.5rem;">
+                                Wash and prepare all fresh vegetables. Slice the avocado and halve the cherry tomatoes.
+                            </p>
+                        </div>
+
+                        <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
+                            <div style="width: 35px; height: 35px; background-color: #f97316; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">
+                                3
+                            </div>
+                            <p style="color: #333; line-height: 1.6; padding-top: 0.5rem;">
+                                In a large bowl, arrange the spinach as a base.
+                            </p>
+                        </div>
+
+                        <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
+                            <div style="width: 35px; height: 35px; background-color: #f97316; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">
+                                4
+                            </div>
+                            <p style="color: #333; line-height: 1.6; padding-top: 0.5rem;">
+                                Add cooked quinoa, avocado slices, cherry tomatoes, and roasted chickpeas on top.
+                            </p>
+                        </div>
+
+                        <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
+                            <div style="width: 35px; height: 35px; background-color: #f97316; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">
+                                5
+                            </div>
+                            <p style="color: #333; line-height: 1.6; padding-top: 0.5rem;">
+                                Drizzle with olive oil and fresh lemon juice.
+                            </p>
+                        </div>
+
+                        <div style="display: flex; gap: 1rem;">
+                            <div style="width: 35px; height: 35px; background-color: #f97316; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0;">
+                                6
+                            </div>
+                            <p style="color: #333; line-height: 1.6; padding-top: 0.5rem;">
+                                Season with salt and pepper to taste. Serve immediately and enjoy!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>RecipeHub</h3>
+                    <p>Making cooking fun and easy for everyone.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="categories.html">Breakfast</a></li>
+                        <li><a href="categories.html">Lunch</a></li>
+                        <li><a href="categories.html">Dinner</a></li>
+                        <li><a href="categories.html">Desserts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Azizul Hakim. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
